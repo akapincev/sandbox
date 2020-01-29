@@ -52,4 +52,6 @@ public class CustomerController {
         log.info("Receive UPDATE-REQUEST on endpoint /customer/{}", id);
         return customerService.updateCustomer(id, customerDTO);
     }
+
+
 }
